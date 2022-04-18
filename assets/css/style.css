@@ -78,8 +78,9 @@ header nav ul li a {
 /*end hero styles*/
 
 .page-section {
-    margin: 20px 50px 20px 100px;
     display: flex;
+    margin: 20px 50px 20px 100px;
+    
 }
 
 .section-title{
@@ -100,7 +101,44 @@ header nav ul li a {
 
 /*end of about me styles*/
 
+/*start of Work styles*/
 
+
+
+.grid2x2{
+    min-height: 250px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-left: 3px solid grey;
+    padding-left: 25px;
+}
+
+.grid2x2 .flex-row {
+    display: flex; 
+  flex-basis: calc(50% - 40px);  
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 10px;
+  border: 3px solid aquamarine;
+}
+
+.led {
+    background-image: url(../images/02-portfolio-1.jpg);
+}
+
+.calc {
+    background-image: url(../images/02-portfolio-2.jpg);
+}
+
+.pastel {
+    background-image: url(../images/02-portfolio-3.jpg);
+}
+
+.run-buddy {
+    background-image: url(../images/02-run-buddy.jpg);
+}
 
 
 
