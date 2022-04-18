@@ -6,8 +6,10 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #fff
+    color: grey
 }
+
+/* header and nav bar style start */
 
 header {
     display: flex;
@@ -42,11 +44,64 @@ header nav ul {
     list-style: none;
     text-align: center;
     justify-content: space-between;
+    margin: 0 50px;
 }
 
 header nav ul li a {
-    margin: 0 15px;
-    font-size: 20px;
+    margin: 0 5px;
+    padding: 0 5px 0 5px;
+    font-size: 18px;
     border-bottom: 3px solid aquamarine;
     justify-content: space-between;
 }
+
+/*header and nav bar style end */
+
+/*hero style start*/
+
+.hero {
+    background-image: url('../images/02-hero-bg.jpg');
+    background-size: cover;
+    height: 150px;
+    padding: 100px 50px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.hero h2 {
+    background-color: aquamarine;
+    height: 30px;
+    padding: 3px 3px 3px 3px;
+}
+
+/*end hero styles*/
+
+.page-section {
+    margin: 20px 50px 20px 100px;
+    display: flex;
+}
+
+.section-title{
+    font-size: 48px;
+    text-align: right;
+    padding: 0 10px;
+}
+
+/*start of About Me Styles*/
+
+.about p {
+    text-align: left;
+    font-size: 1.5vw;
+    border-left: 3px solid grey;
+    padding-left: 25px;
+    line-height: 1.5;
+}
+
+/*end of about me styles*/
+
+
+
+
+
+
